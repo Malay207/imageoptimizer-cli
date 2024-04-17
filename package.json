@@ -1,0 +1,23 @@
+{
+  "name": "imageoptimizer",
+  "version": "1.0.0",
+  "description": "optimize image and video",
+  "main": "index.js",
+  "bin": {
+    "optimize": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malay Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "chalk": "^4.1.2",
+    "cloudconvert": "^2.3.6",
+    "esm": "^3.2.25",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^0.22.12",
+    "minimist": "^1.2.8"
+  }
+}
